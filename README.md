@@ -4,7 +4,6 @@ homework2 report
 比赛用户名：hamimelon2019
 
 一、所做的工作：
-
 1. 复现乔子越、王寒雪同学的代码，调超参数，在比赛中得到0.46的分数；
 并将聚类种类由DBSCAN改成OPTICS，发现结果不理想，仅得到0.22的分数。
 
@@ -15,11 +14,14 @@ homework2 report
 从训练完成的genename result文件来分析，消歧效果差的前七八个名字问题集中表现为：中文名为两个字且名字为单个字母缩写的名字。
 举例来说其中s_liu和t_wang两个名字对应的论文篇数分别为1478篇和1357篇，qing_liu对应的论文为2388篇。一般来说，一位学者在学术生涯中不可能达到这么高的论文产出。比如唐老师科研20年，论文200+篇，差不多一年10多篇，这样算来，一位学者发表1478篇论文则需要147年，所以可以推断s_liu名字下所属的论文肯定不是一位学者所写。
 继续沿此思路仔细分析，这几个名字的学者在在学科研究类别上有很大差异，证实了我们的猜测。
+
 2）经过继续分析，我们认为应该重视venue和department两个特征。
+
 venue的特征意义是否显著，也许如两位同学所说，同样venue或department的人也许并不能归为一个人，但是同名字的学者，不同的venue和department，则很有可能不是同一人，比如一位学科是药剂学，一位学科是计算机，这肯定是可以划分为两个人的。
 如果把university与venue和department相结合，也许结果会更显著。
 
-3. 利用linux系统复现唐老师和同学们2018年KDD论文代码，得出与唐老师论文中相差不多的f1结果。
+3. 利用linux系统复现唐老师和同学们2018年KDD论文代码，得出与唐老师论文中相差不多的f1结果。 
+
 100个名字，n_pubs平均值为271，n_clusters的平均值为10.66，precision、recall、f1的average分别为0.76605、0.63292、0.69315，唐老师与同学们论文的这三个值分别为77.96、63.03、67.79，相差不大。
 唐老师与同学们利用了TF-IDF、NLPK、Word2Vec、RNN等等模型进行数据预处理或训练，分别从特征学习和基于链接的图表示学习进行学习，特征信息的挖掘相对于乔子越、王寒雪两位同学的更加丰富。
 
@@ -31,12 +33,11 @@ venue的特征意义是否显著，也许如两位同学所说，同样venue或d
 
 感谢。
 
+
 参考文献：
-1. Ziyue Qiao ; Yi Du ; Yanjie Fu ; Pengfei Wang ; Yuanchun Zhou
-, "Unsupervised Author Disambiguation using Heterogeneous Graph Convolutional Network Embedding," 2019 IEEE International Conference on Big Data (Big Data), Los Angeles, CA, USA, 2019, pp. 910-919, doi: 10.1109/BigData47090.2019.9005458.
-2.Yutao Zhang, Fanjin Zhang, Peiran Yao, and Jie Tang. 2018. Name Disambiguation in AMiner: Clustering, Maintenance, and Human in the Loop .
-In KDD ’18: The 24th ACM SIGKDD International Conference on Knowledge
-Discovery & Data Mining, August 19–23, 2018, London, United Kingdom. ACM,
-New York, NY, USA, 10 pages. https://doi.org/10.1145/3219819.3219859
+
+1. Ziyue Qiao ; Yi Du ; Yanjie Fu ; Pengfei Wang ; Yuanchun Zhou, "Unsupervised Author Disambiguation using Heterogeneous Graph Convolutional Network Embedding," 2019 IEEE International Conference on Big Data (Big Data), Los Angeles, CA, USA, 2019, pp. 910-919, doi: 10.1109/BigData47090.2019.9005458.
+
+2.Yutao Zhang, Fanjin Zhang, Peiran Yao, and Jie Tang. 2018. Name Disambiguation in AMiner: Clustering, Maintenance, and Human in the Loop .In KDD ’18: The 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, August 19–23, 2018, London, United Kingdom. ACM, New York, NY, USA, 10 pages. https://doi.org/10.1145/3219819.3219859
 
 
