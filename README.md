@@ -35,9 +35,8 @@ venue的特征意义是否显著，也许如两位同学所说，同样venue或d
 
 
 参考文献：
-
 1. Ziyue Qiao ; Yi Du ; Yanjie Fu ; Pengfei Wang ; Yuanchun Zhou, "Unsupervised Author Disambiguation using Heterogeneous Graph Convolutional Network Embedding," 2019 IEEE International Conference on Big Data (Big Data), Los Angeles, CA, USA, 2019, pp. 910-919, doi: 10.1109/BigData47090.2019.9005458.
 
-2.Yutao Zhang, Fanjin Zhang, Peiran Yao, and Jie Tang. 2018. Name Disambiguation in AMiner: Clustering, Maintenance, and Human in the Loop .In KDD ’18: The 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, August 19–23, 2018, London, United Kingdom. ACM, New York, NY, USA, 10 pages. https://doi.org/10.1145/3219819.3219859
+2. Yutao Zhang, Fanjin Zhang, Peiran Yao, and Jie Tang. 2018. Name Disambiguation in AMiner: Clustering, Maintenance, and Human in the Loop .In KDD ’18: The 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, August 19–23, 2018, London, United Kingdom. ACM, New York, NY, USA, 10 pages. https://doi.org/10.1145/3219819.3219859
 
 
