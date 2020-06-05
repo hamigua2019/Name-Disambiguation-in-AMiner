@@ -8,6 +8,7 @@ homework2 report 2.0 （6.5.2020）
 3. 名次：暂列第三
 
 二、本周所做的新工作：
+
 *完成顺利的工作：
 1. 与上周第一版相比，增加了一批停用词，对org、conf、word和venue等进行提纯，得到了performance的稍许提升。
 
@@ -21,7 +22,10 @@ homework2 report 2.0 （6.5.2020）
                  'research','world','Sciences','high','traditional','null','people','general','national','2007','european',
                  'life','key']
                  
+
+
 *尝试但未成功的工作：   
+
 2. 加入venue特征提取，但没有成功。
 出现语料不足的bug，需要接下来再努力检查调试代码直至成功。
 
