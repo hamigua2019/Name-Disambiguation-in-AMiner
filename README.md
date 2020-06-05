@@ -1,7 +1,38 @@
 # Name-Disambiguation-in-AMiner
-homework2 report
+homework2 report 2.0 （5.29.2020）
+比赛用户名：hamimelon2019 分数：0.466060323749797，提高了0.11% 名次：暂列第三
 
-比赛用户名：hamimelon2019
+本周所做的新工作：
+顺利的工作：
+1. 与上周第一版相比，增加了一批停用词，对org和venue等进行提纯，得到了performance的稍许提升。
+   分析判断，这些停用词不是学科等核心词，对作者的定点定位、消歧没有帮助，所以去除，从实际效果看，推断得到了证实。
+   增加的停用词有：
+       stop = [from];
+       stop1 = ['Dept','state',
+                 'research','world','Sciences','high','traditional','null','people','general','national','2007','european',
+                 'life','key']
+                 
+尝试但未成功的工作：                 
+2. 加入venue特征提取，但没有成功。
+出现语料不足的bug，需要接下来再努力检查调试代码直至成功。
+
+3. 把语料放入Name Disambiguation in AMiner: Clustering, Maintenance, and Human in the Loop .In KDD ’18 中 尝试实现，processing这一步成功，但是第二步出现bug。
+需要接下来继续检查调试代码。
+
+接下来，应该
+1. 在NLP理论技术和工程代码双方面继续学习思考，学会修改、改造模型，提升模型performance；
+2. 从模仿到创造。
+
+时间能力所限，所得有限。
+感谢老师们教授批阅：）  
+   
+   
+
+
+
+homework2 report 1.0 （5.29.2020）
+
+比赛用户名：hamimelon2019 分数：0.464947673582703
 
 一、所做的工作：
 1. 复现乔子越、王寒雪同学的代码，调超参数，在比赛中得到0.46的分数；
