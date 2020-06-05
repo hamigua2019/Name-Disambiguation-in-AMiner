@@ -2,15 +2,13 @@
 
 homework2 report 2.0 （6.5.2020）
 
-比赛信息：
+一、比赛信息：
 1. 比赛用户名：hamimelon2019 
 2. 分数：0.466060323749797，提高了0.11% 
 3. 名次：暂列第三
 
-本周所做的新工作：
-
-完成顺利的工作：
-
+二、本周所做的新工作：
+*完成顺利的工作：
 1. 与上周第一版相比，增加了一批停用词，对org、conf、word和venue等进行提纯，得到了performance的稍许提升。
 
    根据语料生成的四个txt文件分析判断，这些停用词不是学科等核心词，对作者的定点定位、消歧没有帮助，所以去除，从实际效果看，推断得到了证实。
@@ -23,22 +21,18 @@ homework2 report 2.0 （6.5.2020）
                  'research','world','Sciences','high','traditional','null','people','general','national','2007','european',
                  'life','key']
                  
-尝试但未成功的工作：     
-
+*尝试但未成功的工作：   
 2. 加入venue特征提取，但没有成功。
-
 出现语料不足的bug，需要接下来再努力检查调试代码直至成功。
 
 3. 把语料放入Name Disambiguation in AMiner: Clustering, Maintenance, and Human in the Loop .In KDD ’18 中 尝试实现，processing这一步成功，但是第二步出现bug。
-
 需要接下来继续检查调试代码。
 
-接下来，应该：
-
+三、接下来，应该：
 1. 在NLP理论技术和工程代码双方面继续学习思考，学会修改、改造模型，提升模型performance；
-
 2. 从模仿到创造。
 
+四、致谢
 时间能力所限，所得有限。
 感谢老师们教授批阅：）有任何未尽和不对之处，敬请不吝指正。
 再次感谢。
