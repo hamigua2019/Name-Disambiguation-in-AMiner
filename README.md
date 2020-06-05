@@ -21,7 +21,7 @@ homework2 report 2.0 （6.5.2020）
 2. 加入venue特征提取，但没有成功。
 出现语料不足的bug，需要接下来再努力检查调试代码直至成功。
 
-3. 把语料放入Name Disambiguation in AMiner: Clustering, Maintenance, and Human in the Loop .In KDD ’18 中 尝试实现，processing这一步成功，但是第二步出现bug。
+3. 把语料放入Name Disambiguation in AMiner: Clustering, Maintenance, and Human in the Loop .In KDD ’18 中 尝试实现，processing这一步成功，但是第二步出现bug。
 需要接下来继续检查调试代码。
 
 接下来，应该
@@ -29,7 +29,8 @@ homework2 report 2.0 （6.5.2020）
 2. 从模仿到创造。
 
 时间能力所限，所得有限。
-感谢老师们教授批阅：）  
+感谢老师们教授批阅：）有任何未尽和不对之处，敬请不吝指正。
+再次感谢。
    
    
 
