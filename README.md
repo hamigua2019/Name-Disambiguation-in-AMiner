@@ -1,6 +1,6 @@
 # Name-Disambiguation-in-AMiner
 
-homework2 report 2.0 （5.29.2020）
+homework2 report 2.0 （6.5.2020）
 
 比赛信息：
 1. 比赛用户名：hamimelon2019 
